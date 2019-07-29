@@ -1,0 +1,151 @@
+.card{
+    margin: 10px;
+    width: 450px;
+    min-width: 330px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(71, 70, 70);
+    line-height: 1.3;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: aliceblue
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date span{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.date img{
+    width: 35px;
+}
+
+.time{ 
+    display: flex;
+    align-items: center;
+}
+
+.time span{
+    padding-top: 2px;
+    margin-left: 3px;
+}
+
+.time img{
+    width: 20px;
+}
+
+.company{
+    display: flex;
+    align-items: center;
+}
+
+.company span{
+    padding-top: 3px;
+    margin-left: 3px;
+    color: #666;
+    font-size: 15px;
+}
+
+.company img{
+    width: 20px;
+}
+
+.users_count{
+    display: flex;
+    align-items: center;
+}
+
+.users_count span{
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.users_count .user{
+    margin-left: 30px;
+}
+
+.users_count img{
+    width: 30px;
+}
+
+.users_count .user{
+    width: 25px;
+}
+
+.state{
+    width: 100%;
+}
+
+.date .pending{
+    float: right;
+    padding: 1px 20px 1px 20px;
+    color: rgb(15, 59, 72);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(66, 184, 221);
+}
+
+.date .paid{
+    float: right;
+    padding: 1px 20px 1px 20px;
+    color: rgb(29, 23, 2);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(223, 117, 20);
+}
+
+.date .submitted{
+    float: right;
+    padding: 1px 20px 1px 20px;
+    color: rgb(13, 72, 15);
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(124, 218, 146);
+}
+
+.paid{
+    margin-left: 2px;
+}
+
+.submitted{
+    margin-left: 2px;
+}
+
+.skills ul:before{
+    content:attr(aria-label);
+    font-size:110%;
+    margin-left:-40px;
+}
+
+.footer{
+    font-size: 15px;
+    color: #666
+}
+
+.footer .date_of_creating{
+    float: right;
+}
+
+.users_count .tooltiptext {
+    display: none;
+    width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    top: -5px;
+    right: 105%; 
+  }
+  
+.users_count:hover .tooltiptext {
+    display: inline;
+}
